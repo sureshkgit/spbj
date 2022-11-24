@@ -1,0 +1,27 @@
+spring:
+  application.name: spbj
+
+server:
+  port: 8088
+
+debug: true
+
+logging:
+  config:
+  file.name:
+  file.path:
+  level:
+    root: INFO
+    javax: INFO
+    org.springframework.web: INFO
+    org.springframework.boot.autoconfigure.logging: INFO
+    org:
+      slf4j:
+        Logger: INFO
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+
